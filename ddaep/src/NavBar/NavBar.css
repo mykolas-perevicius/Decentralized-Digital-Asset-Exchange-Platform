@@ -1,0 +1,33 @@
+/* Navbar/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #222;
+  color: #FFF;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search-box {
+  flex: 1;
+  padding: 10px;
+  margin: 0 20px;
+  font-size: 16px;
+}
+
+.sign-in, .sign-up {
+  padding: 10px 20px;
+  border: none;
+  background-color: #555;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.sign-up {
+  background-color: #FF4500;
+}
